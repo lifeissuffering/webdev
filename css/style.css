@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    color:black;
+    font-family: Verdana;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1186px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.skils_items{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 25px;
+    margin-top: 56px;
+    margin-left: 24px;
+    
+}
+.skill_item{
+    margin-top: 13px;
+}
+.left_panel{
+    margin-left: 0px;
+}
+.rectangle_panel{
+    background: #FFE9E9;
+    border-radius: 20px;
+    width: 220px;
+    height: 736px;
+}
+.header_name{
+    text-align: center;
+    font-weight:400;
+    font-size: 36px;
+}
+.my_name{
+    margin-top: 20px;
+    font-weight:400;
+}
+.FIO{
+    margin-top: 13px;
+}
+.photo_image{
+    border-radius: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 746px;
+    margin-left: 340px;
+    margin-right: 340px;
+    margin: 0 auto;
+    
+}
+.info_rect{
+    width: 744px;
+    height: 91px;
+    left: 311px;
+    top: 837px;
+    background: #FFE9E9;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-bottom: 140px;
+}
+.info_text{
+    font-weight: 200;
+    text-align: right;
+    margin-top: 20px;
+}
+@media screen and (max-width: 615px){
+    .body{
+        font-size: 24px;
+    }
+    .container{
+        padding-top: 20px;
+        max-width: 480px;
+        flex-direction: column-reverse;
+    }
+    .rectangle_panel{
+        width: 440px;
+        height: 194px;
+        margin-bottom: 7px;
+    }
+    .skils_items{
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 120px;
+        flex-direction: row;
+    }
+    .header_name{
+        margin-left: 163.5px;
+        width: 113px;
+        height: 27px;
+        font-size: 24px;
+    }
+    .skill_item{
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .image{
+        width: 130px;
+        height: 130px;
+    }
+    .photo_image{
+        width: 440px;
+        height: 431.7px;
+    }
+    .about{
+        padding-left:10%;
+        padding-right: 10%;
+        
+        height: 87.13px;
+        margin-bottom: 5%;
+    }
+    .my_name{
+        margin-top: 0;
+        font-size: 24px;
+    }
+    .info_rect{
+        width: 398px;
+        height: 87.13px;
+        margin-bottom: 5%;
+    }
+    .info_text{
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+}
+
